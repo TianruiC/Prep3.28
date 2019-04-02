@@ -2,9 +2,43 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Techniques</title>
   </head>
   <body>
-
+    <h1>Cairo's techniques to highlight the meaningful changes in data visualizations</h1>
+    <div class="Techniques">
+      <h2><u>Seasonal subseries Chart</u></h2>
+      <ul>
+        <li>Showing the consistent and periodic fluctuations about the data</li>
+        <li>Powerful in climate science visualization, tourism visualization</li>
+      </ul>
+    </div>
+    <div class="Techniques">
+      <h2><u>Index Origin</u></h2>
+      <ul>
+        <li>Better represent the relative change</li>
+        <li>The y-axis is the percentage value. The zero percentage usually is at the middle of the y-axis</li>
+        <li>Percentage change = ((Each score – Index origin) / Indexorigin) × 100</li>
+      </ul>
+    </div>
+    <div class="Techniques">
+      <h2><u>Logarithmic Scale</u></h2>
+      <ul>
+        <li>Easier to visualize the data with expontential rate of change</li>
+        <li>Using log transformation to the value in y-axis to better represent the data. The majority case is to use log10 scale.</li>
+      </ul>
+    </div>
+    <div class="Techniques">
+      <h2><u>Horizon Chart</u></h2>
+      <ul>
+        <li>Good technique for displaying dozens of line charts simultaneously</li>
+        <li>Steps to make space-efficient horizon chart</li>
+        <ol>
+          <li>Subdivide its vertical scale evenly, and colors code positive and negative values</li>
+          <li>Mirror the color bands corresponding to negative values</li>
+          <li>then collapses the color bands</li>
+        </ol>
+      </ul>
+    </div>
   </body>
 </html>
